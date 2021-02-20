@@ -1,0 +1,112 @@
+<style>
+
+		* {
+			box-sizing: border-box;
+			font-family: sans-serif;
+ 						}
+
+body {
+	margin: 0;
+	padding:0;
+}
+		/* General CSS Rules */
+		h1  {
+		text-align: center;
+		}
+		
+		p {
+			padding-top: 15px;
+			clear: left;
+		}
+		
+		
+
+		/* Simple Responsive Framework. */
+		.row {
+			width: 100%
+		}
+
+
+
+/* Desktop large view */
+@media (min-width: 992px) 
+{
+  .col-lg-4 {
+   width: 33.33%;
+	float: left;
+
+}
+
+}
+
+/* Tablet view */
+@media (min-width: 768px) and (max-width: 991px)
+{
+.col-md-1{
+	width: 100%;
+	float: left;
+}
+	.col-md-4{
+	width: 50%;
+	float: left;
+}
+}
+
+
+
+/*Mobile view and less */
+@media (max-width: 767px)
+{
+.col-xs-1{
+	width: 100%;
+	padding:0 50px;
+}
+}
+
+/*Boxes */
+		.box {
+			background-color: lightgrey;
+			padding: 15px;
+			font-weight: 600;
+			margin: 15px;
+			border: 1px solid black;
+		}
+
+/*
+.margin{
+	width: 33.33%;
+	float: left;
+	
+}*/
+
+/*General Inner Boxes */
+
+			.internal-box {
+				width: 33.33%;
+				padding: -16px;
+				margin: -16px;
+				float: right;
+				text-align: center;
+				border: 1px solid black;
+				font-size: 18px;
+				font-weight: 800;
+			}
+
+/*Specific Inner Boxes */			
+
+.chicken {
+	background-color:#39c7dd; /* Celeste */
+	}
+
+.beaf {
+	background-color:#515a79;/* blu */
+	color: #ffffff;
+	}
+
+.sushi{
+	background-color:#39dda2; /* Green*/
+	}
+
+	
+
+</style>
